@@ -1,0 +1,2 @@
+Blocking = Server hangs. If one user's request blocks, ALL users waiting.
+Non-blocking = Many users at once. Server handles requests while waiting for database/file operations.

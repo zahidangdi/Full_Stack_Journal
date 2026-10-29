@@ -1,0 +1,39 @@
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+
+# Editor settings
+.vscode/
+
+# macOS metadata
+**/.DS_Store
+
+# Exclude work attributed to another author
+lab1/exp2/
+
+# Exclude generated outputs containing student data
+lab4/exp1/ok.txt
+lab5/exp1/read.txt
+lab5/exp1/pipe.txt
+lab5/exp1/write.txt
+lab5/serverless/okkk.txt
+lab6/exp1/okk.txt
